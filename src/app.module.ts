@@ -12,7 +12,7 @@ import { ConfigModule } from "@nestjs/config";
     ConfigModule.forRoot(),
     SequelizeModule.forRoot({
       dialect: 'mysql',
-      host: '38.17.53.116',
+      host: 'mysql-17501-0.cloudclusters.net',
       port: 17536,
       username: 'product',
       password: 'userproduct',
